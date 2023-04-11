@@ -9,5 +9,5 @@ def solution(x: np.array, y: np.array) -> bool:
     # Это будет вашим решением
     # Не меняйте название функции и её аргументы
      p_value = anderson_ksamp([x, y]).pvalue 
-    alpha = 0.07
+    alpha = 0.08
     return p_value < alpha # Ваш ответ, True или False
